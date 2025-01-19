@@ -11,14 +11,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-interface TeamProps {
+interface ConstructionService {
   imageUrl: string;
   title: string;
   description: string;
   url: string;
 }
 
-const teamList: TeamProps[] = [
+const constService: ConstructionService[] = [
   {
     imageUrl: "c1.jpg",
     title: "Pipe Installation",
@@ -39,7 +39,7 @@ const Constructions = () => {
       </div>
       <Separator />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-5">
-        {teamList.map(({imageUrl, title, description, url}, index) => (
+        {constService.map(({imageUrl, title, description, url}, index) => (
           <Card
             key={index}
             className="bg-muted/60 dark:bg-card flex flex-col h-full overflow-hidden group/hoverimg"
