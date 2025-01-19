@@ -12,12 +12,12 @@ import {TeamSection} from "@/components/layout/sections/team";
 import {TestimonialSection} from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "GranexPh",
+  description: "GranexPh Landing Page",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
+    url: "https://granexph.com/",
+    title: "GranexPh",
     description: "Free Shadcn landing page for developers",
     images: [
       {
@@ -30,8 +30,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
+    site: "https://granexph.com/",
+    title: "GranexPh",
     description: "Free Shadcn landing page for developers",
     images: [
       "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",

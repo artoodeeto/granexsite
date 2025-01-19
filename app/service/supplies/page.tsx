@@ -1,5 +1,24 @@
+"use client";
 import {Separator} from "@/components/ui/separator";
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+interface ImageNames {
+  image: string[];
+}
+
+const images = [
+  "s1.jpg",
+  "s2.jpg",
+  "s3.jpg",
+  "s4.jpg",
+  "s5.jpg",
+  "s6.jpg",
+  "s7.jpg",
+  "s8.jpg",
+  "s9.jpg",
+];
 
 const Supplies = () => {
   return (
@@ -11,11 +30,27 @@ const Supplies = () => {
           Guages, Bearings, Safety Products and Equipments, Industrial
           Chemicals, Computers and other parts that are needed in food
           industries, Power Plants, Water Districts, Hospitals, Hotels and other
-          industries.
+          industries. You can also{" "}
+          <span className="text-primary">
+            <Link href={"/catalog/cat.pdf"} target="_blank">
+              download
+            </Link>
+          </span>{" "}
+          out full catalog.
         </p>
       </div>
       <Separator />
-      <div></div>
+      <div className="justify-items-center grid grid-rows-3 grid-flow-col-dense gap-2 mt-5 ">
+        {images.map((img) => (
+          <Image
+            width={370}
+            height={0}
+            className="border border-red-600"
+            src={`/supplies/${img}`}
+            alt="image supplies"
+          />
+        ))}
+      </div>
     </div>
   );
 };
