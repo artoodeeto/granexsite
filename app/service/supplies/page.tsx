@@ -45,7 +45,7 @@ const Supplies = () => {
           <Image
             width={370}
             height={0}
-            className="border border-red-600"
+            className=""
             src={`/supplies/${img}`}
             alt="image supplies"
           />
