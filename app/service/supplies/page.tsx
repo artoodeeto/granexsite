@@ -45,7 +45,7 @@ const Supplies = () => {
           <Image
             width={370}
             height={0}
-            className=""
+            className="rounded-lg filter grayscale hover:grayscale-0 transition-all duration-400 ease-linear"
             src={`/supplies/${img}`}
             alt="image supplies"
           />
