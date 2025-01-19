@@ -3,6 +3,7 @@ import {Separator} from "@/components/ui/separator";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Catalog from "@/components/layout/catalog";
 
 interface ImageNames {
   image: string[];
@@ -30,13 +31,7 @@ const Supplies = () => {
           Guages, Bearings, Safety Products and Equipments, Industrial
           Chemicals, Computers and other parts that are needed in food
           industries, Power Plants, Water Districts, Hospitals, Hotels and other
-          industries. You can also{" "}
-          <span className="text-primary">
-            <Link href={"/catalog/cat.pdf"} target="_blank">
-              download
-            </Link>
-          </span>{" "}
-          out full catalog.
+          industries. <Catalog />
         </p>
       </div>
       <Separator />

@@ -98,6 +98,19 @@ export const FooterSection = () => {
               </Link>
             </div>
           </div>
+
+          <div className="flex flex-col gap-2">
+            <h3 className="font-bold text-lg">Catalog</h3>
+            <div>
+              <Link
+                href={"/catalog/cat.pdf"}
+                target="_blank"
+                className="opacity-60 hover:opacity-100 text-primary"
+              >
+                Download
+              </Link>
+            </div>
+          </div>
         </div>
 
         <Separator className="my-6" />

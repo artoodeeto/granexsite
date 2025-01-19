@@ -11,13 +11,13 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Trust",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Creativity",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
   },
@@ -29,7 +29,7 @@ const benefitList: BenefitsProps[] = [
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Collaboration",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
   },
