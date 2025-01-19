@@ -21,8 +21,27 @@ interface ConstructionService {
 const constService: ConstructionService[] = [
   {
     imageUrl: "c1.jpg",
-    title: "Pipe Installation",
-    description: "Piping installation at Roadhouse Hotel.",
+    title: "PPE Waterline Installation",
+    description: "7 storey building waterline installation at MetroJ hotel.",
+    url: "",
+  },
+  {
+    imageUrl: "c2.jpg",
+    title: "Chiller Installation",
+    description: "Chiller pullout/reinstallation at GenTuna Philippines.",
+    url: "",
+  },
+  {
+    imageUrl: "c3.jpg",
+    title: "Converge Cable Installation",
+    description: "Internet Cable Installation.",
+    url: "",
+  },
+  {
+    imageUrl: "c4.jpg",
+    title: "Bypass Installation Cooling System",
+    description:
+      "CONVERSION OF E120 ISUZU ENGINE COOLING SYSTEM FOR GAS PUMP --- INSTALLATION OF BYPASS COOLING SYSTEM",
     url: "",
   },
 ];

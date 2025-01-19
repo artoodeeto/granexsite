@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Trust",
+    title: "Innovative",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Showcases a commitment to cutting-edge solutions and technologies that solve complex engineering challenges, emphasizing creativity and forward-thinking approaches.",
   },
   {
     icon: "LineChart",
-    title: "Creativity",
+    title: "Reliable",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Highlights dependability and precision in delivering high-quality services on time and within budget, ensuring clients can trust their expertise.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Comprehensive",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Reflects the wide range of services offered, from initial concept development to final implementation, providing end-to-end solutions tailored to client needs.",
   },
   {
     icon: "Sparkle",
-    title: "Collaboration",
+    title: "Efficient",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Demonstrates a focus on optimizing processes and resources, delivering cost-effective and timely results without compromising quality.",
   },
 ];
 
@@ -43,7 +43,7 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            We focus on your success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non

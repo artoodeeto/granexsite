@@ -11,6 +11,18 @@ interface sponsorsProps {
 
 const sponsors: sponsorsProps[] = [
   {
+    icon: "Drama",
+    name: "Sacom",
+  },
+  {
+    icon: "Puzzle",
+    name: "Cortec",
+  },
+  {
+    icon: "Cookie",
+    name: "Nitti",
+  },
+  {
     icon: "Crown",
     name: "Qbits Resource Corporation",
   },

@@ -44,13 +44,13 @@ const routeList: RouteProps[] = [
     label: "Partners",
   },
   {
+    href: "#about",
+    label: "About",
+  },
+  {
     href: "#contact",
     label: "Contact",
   },
-  // {
-  //   href: "#faq",
-  //   label: "FAQ",
-  // },
 ];
 
 const featureList: FeatureProps[] = [
