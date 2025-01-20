@@ -104,6 +104,33 @@ export const Navbar = () => {
               </SheetHeader>
             </div>
 
+            <NavigationMenu className="sm:block mx-auto" orientation="vertical">
+              <NavigationMenuList className="flex flex-col">
+                <NavigationMenuItem
+                  className="flex flex-col"
+                  onClick={() => setIsOpen(!isOpen)}
+                >
+                  {featureList.map(({href, title}) => (
+                    <NavigationMenuLink key={href} asChild>
+                      <Link
+                        href={`/service/${href}`}
+                        className="text-base px-2"
+                      >
+                        {href}
+                      </Link>
+                    </NavigationMenuLink>
+                  ))}
+                  {routeList.map(({href, label}) => (
+                    <NavigationMenuLink key={href} asChild>
+                      <Link href={`/${href}`} className="text-base px-2">
+                        {label}
+                      </Link>
+                    </NavigationMenuLink>
+                  ))}
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+
             <SheetFooter className="flex-col sm:flex-col justify-start items-start">
               <Separator className="mb-2" />
 
