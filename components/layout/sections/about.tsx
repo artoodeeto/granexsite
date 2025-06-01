@@ -27,7 +27,7 @@ export const AboutSection = () => {
                 </div>
               </CardTitle>
             </CardHeader>
-            <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
+            <CardContent className="lg:w-[80%] text-xl text-muted-foreground text-justify">
               Granex Industrial Engineering Services, was established on January
               13, 2022, located in the southern part of Mindanao in the city of
               General Santos, South Cotabato. A sole proprietorship, owned and

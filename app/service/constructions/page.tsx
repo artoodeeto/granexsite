@@ -49,9 +49,11 @@ const constService: ConstructionService[] = [
 const Constructions = () => {
   return (
     <div className="container mt-16">
-      <div>
-        <h1 className="text-3xl font-bold">Construction and Repairs</h1>
-        <p className="text-md text-muted-foreground mb-8">
+      <div className="max-w-4xl">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+          Construction and Repairs
+        </h1>
+        <p className="text-sm md:text-base text-muted-foreground mb-8 leading-relaxed">
           We provide civil works repairs and renovations. Engine conversion and
           repairs. We also provide plumbing/waterline projects. <Catalog />
         </p>

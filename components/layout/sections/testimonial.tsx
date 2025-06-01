@@ -27,53 +27,52 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Priya Singh",
+    userName: "Manufacturing Consultant",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Every engineer on their team was knowledgeable and approachable. They delivered ahead of schedule and provided ongoing support after implementation.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "David Taylor",
+    userName: "Nuvatech Solutions",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "They didn’t just deliver a solution — they worked alongside us to understand our goals. From layout planning to automation integration, they exceeded expectations.",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "James Roberts",
+    userName: "Plant Manager",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "We saw a 22% cost reduction in logistics after their team revamped our warehouse and flow systems. Highly recommended for any business serious about scaling efficiently.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Laura Mitchell",
+    userName: "Operations Director",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Working with this industrial engineering team transformed our manufacturing line. Downtime dropped by 30%, and productivity is up. Their attention to detail and process optimization was exactly what we needed.",
     rating: 5.0,
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    rating: 4.9,
-  },
+  // {
+  //   image: "https://github.com/shadcn.png",
+  //   name: "Ava Mitchell",
+  //   userName: "IT Project Manager",
+  //   comment:
+  //     "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+  //   rating: 5.0,
+  // },
+  // {
+  //   image: "https://github.com/shadcn.png",
+  //   name: "Isabella Reed",
+  //   userName: "DevOps Engineer",
+  //   comment:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   rating: 4.9,
+  // },
 ];
 
 export const TestimonialSection = () => {

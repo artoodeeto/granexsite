@@ -46,9 +46,16 @@ export const BenefitsSection = () => {
             We focus on your success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            At Granex, we believe that your success is the foundation of
+            everything we do. Our team is committed to delivering construction
+            solutions that not only meet your expectations but exceed them,
+            ensuring your projects are completed on time, within budget, and to
+            the highest standards. By partnering with us, you gain more than
+            just a contractor—you gain a dedicated ally who prioritizes your
+            goals, listens to your needs, and tailors every step of the process
+            to achieve results that support your vision. From innovative designs
+            to meticulous execution, we focus on building structures that
+            empower your success and stand the test of time.
           </p>
         </div>
 
